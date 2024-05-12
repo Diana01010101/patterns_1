@@ -22,7 +22,7 @@ public class DataGenerator {
     public static String generateCity() {
         // TODO: добавить логику для объявления переменной city и задания её значения, генерацию можно выполнить
         // с помощью Faker, либо используя массив валидных городов и класс Random
-        var cities = new String[]{"Москва", "Санкт-Петербург", "Челябинск", "Ханты-Мансийск", "Карган", "Калуга",
+        var cities = new String[]{"Москва", "Санкт-Петербург", "Челябинск", "Ханты-Мансийск", "Калуга",
                 "Уфа", "Якутск", "Псков"
         };
         return cities[new Random().nextInt(cities.length)];
